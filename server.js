@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://boxofficepredictor.netlify.app',
+  origin: 'https://boxofficepredictorplus.netlify.app',
   methods: ['GET', 'POST'],
   credentials: true
 }));
